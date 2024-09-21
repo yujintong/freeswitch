@@ -78,6 +78,8 @@
 #include <systemd/sd-daemon.h>
 #endif
 
+#include <xswitch.h> // xswitch functions and extensions
+
 SWITCH_DECLARE_DATA switch_directories SWITCH_GLOBAL_dirs = { 0 };
 SWITCH_DECLARE_DATA switch_filenames SWITCH_GLOBAL_filenames = { 0 };
 
